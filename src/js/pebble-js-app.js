@@ -11,7 +11,7 @@ Pebble.addEventListener('ready', function() {
     "time": date.toISOString(),
     "layout": {
       "type": "genericPin",
-      "title": "Example Pin",
+      "title": "Antonio's Example Pin",
       "tinyIcon": "system://images/TIMELINE_PIN_TINY"
     }
   };
