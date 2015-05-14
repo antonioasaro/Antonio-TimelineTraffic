@@ -3,7 +3,7 @@ Pebble.addEventListener('ready', function() {
 
   // An hour ahead
   var date = new Date();
-  date.setHours(date.getHours() + 1);
+  date.setHours(date.getHours() + 2);
 
   // Create the pin
   var pin = {
