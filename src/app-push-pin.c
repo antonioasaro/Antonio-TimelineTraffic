@@ -32,6 +32,7 @@ static void window_unload(Window *window) {
 static void launched() {
   if(launch_reason() == APP_LAUNCH_TIMELINE_ACTION) {
   uint32_t arg = launch_get_args();
+  action_launch = S_TRUE;
 
   switch(arg) {
     case LAUNCH_ARG_CANCEL:
