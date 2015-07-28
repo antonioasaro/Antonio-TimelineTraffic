@@ -67,3 +67,28 @@ int main() {
   app_event_loop();
   deinit();
 }
+
+/***************************************
+{
+  "id": "antonio-cloudpebble-test-pin-1",
+  "time": "2015-07-27T22:00:00Z",
+  "layout": {
+    "type": "genericPin",
+    "title": "Antonio Pin!!"
+  },
+  "actions": [
+    {
+      "title": "View Schedule",
+      "type": "openWatchApp",
+      "launchCode": 15
+    },
+    {
+      "title": "Show Directions",
+      "type": "openWatchApp",
+      "launchCode": 22
+    }
+ 
+  ]
+}
+
+*****************************************/
