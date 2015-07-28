@@ -7,7 +7,7 @@ Pebble.addEventListener('ready', function() {
 
   // Create the pin
   var pin = {
-    "id": "pin-" + Math.round((Math.random() * 100000)),
+    "id": "antonio-pin-" + Math.round((Math.random() * 100000)),
     "time": date.toISOString(),
     "layout": {
       "type": "genericPin",
@@ -17,11 +17,12 @@ Pebble.addEventListener('ready', function() {
   };
 
   console.log('Inserting pin in the future: ' + JSON.stringify(pin));
-
   insertUserPin(pin, function(responseText) { 
     console.log('Result: ' + responseText);
   });
 });
+
+
 
 /******************************* timeline lib *********************************/
 
