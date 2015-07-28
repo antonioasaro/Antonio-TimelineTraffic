@@ -12,7 +12,7 @@ Pebble.addEventListener('ready', function() {
     "layout": {
       "type": "genericPin",
       "title": "Antonio's Example Pin",
-      "tinyIcon": "system://images/TIMELINE_PIN_TINY"
+      "tinyIcon": "system://images/NOTIFICATION_FLAG"
     }
   };
 
